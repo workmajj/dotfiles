@@ -2,7 +2,7 @@
 export LC_CTYPE=en_US.UTF-8
 
 # Aliases
-alias ll='ls -AlFG'
+alias ll='ls -AFGhl'
 
 # Editors
 if hash mate 2>&-; then
