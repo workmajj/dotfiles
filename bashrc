@@ -2,6 +2,7 @@
 export LC_CTYPE=en_US.UTF-8
 
 # aliases
+alias ..='cd ..'
 alias c='clear'
 alias ll='ls -AFGhl'
 
