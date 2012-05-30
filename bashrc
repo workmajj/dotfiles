@@ -9,7 +9,7 @@ alias ll='ls -AFGhl'
 # git aliases
 alias gc='git commit'
 alias gd='git diff'
-alias gl='git log'
+alias gl='git shortlog'
 alias gs='git status'
 
 # editors
