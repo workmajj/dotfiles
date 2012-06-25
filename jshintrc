@@ -3,6 +3,8 @@
 {
     // parser config
     "maxerr": 1000,
+    "maxlen": 80,
+    "quotmark": "single",
 
     // globals
     "predef": [
