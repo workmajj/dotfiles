@@ -1,13 +1,20 @@
-{
-    // http://www.jshint.com/options/
+// http://www.jshint.com/options/
 
+{
     // globals
     "predef": [
+        "ps$",
         "_bslt",
         "isset",
-        "ps$",
+        "is_array",
+        "empty",
+        "is_object",
+        "is_function",
+        "is_deferred",
+        "scopeC",
+
         "PS",
-        "scopeC"
+        "psApp"
     ],
 
     // enforcing options
