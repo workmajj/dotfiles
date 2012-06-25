@@ -1,14 +1,15 @@
 // http://www.jshint.com/options/
 
 {
+    // parser config
+    "maxerr": 1000,
+
     // globals
     "predef": [
         // empty
     ],
 
-    // enforcing options
-    // (true to enforce; false to relax)
-
+    // enforcing options (true to enforce; false to relax)
     "bitwise": true,
     // "curly": true,
     "curly": false,
@@ -30,9 +31,7 @@
     "strict": false,
     "trailing": true,
 
-    // relaxing options
-    // (true to relax; false to enforce)
-
+    // relaxing options (true to relax; false to enforce)
     "asi": false,
     // "boss": true,
     "boss": false,
@@ -67,7 +66,6 @@
     "validthis": true,
 
     // environments
-
     "browser": true,
     "couch": false,
     // "devel": false,
@@ -81,9 +79,7 @@
     "rhino": false,
     "wsh": false,
 
-    // jslint legacy
-    // (true to enforce; false to relax)
-
+    // legacy options (true to enforce; false to relax)
     "nomen": false,
     "onevar": false,
     "passfail": false,
