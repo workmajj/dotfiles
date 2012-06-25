@@ -2,6 +2,7 @@
 
 {
     // parser config
+    "indent": 4,
     "maxerr": 1000,
     "maxlen": 80,
     "quotmark": "single",
