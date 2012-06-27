@@ -6,6 +6,7 @@
 
     // globals
     "predef": [
+        // lib
         "ps$",
         "_bslt",
         "isset",
@@ -15,8 +16,14 @@
         "is_function",
         "is_deferred",
         "scopeC",
+
+        // mvc
         "PS",
-        "psApp"
+        "psApp",
+
+        // underscore/backbone
+        "_",
+        "Backbone"
     ],
 
     // enforcing options (true to enforce; false to relax)

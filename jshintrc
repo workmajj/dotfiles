@@ -9,7 +9,9 @@
 
     // globals
     "predef": [
-        // empty
+        // underscore/backbone
+        "_",
+        "Backbone"
     ],
 
     // enforcing options (true to enforce; false to relax)
