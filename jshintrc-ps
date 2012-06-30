@@ -19,11 +19,7 @@
 
         // mvc
         "PS",
-        "psApp",
-
-        // underscore/backbone
-        "_",
-        "Backbone"
+        "psApp"
     ],
 
     // enforcing options (true to enforce; false to relax)
