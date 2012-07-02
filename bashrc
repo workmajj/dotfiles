@@ -1,6 +1,9 @@
 # locale
 export LC_CTYPE=en_US.UTF-8
 
+# prompt
+export PS1='\[\033[00;33m\][\u@\h][\T]\[\033[00;36m\][\w]$ \[\033[00m\]'
+
 # basic aliases
 alias ..='cd ..'
 alias c='clear'
