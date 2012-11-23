@@ -2,24 +2,31 @@
 
 {
     // parser config
-    "indent": 4,
     "maxerr": 1000,
-    "maxlen": 80,
-    "quotmark": "single",
 
     // globals
     "predef": [
-        // underscore/backbone
-        "_",
-        "Backbone"
+        // lib
+        "ps$",
+        "_bslt",
+        "isset",
+        "is_array",
+        "empty",
+        "is_object",
+        "is_function",
+        "is_deferred",
+        "scopeC",
+
+        // mvc
+        "PS",
+        "psApp"
     ],
 
     // enforcing options (true to enforce; false to relax)
     "bitwise": true,
     // "curly": true,
     "curly": false,
-    // "eqeqeq": false,
-    "eqeqeq": true,
+    "eqeqeq": false,
     // "forin": false,
     "forin": true,
     // "immed": true,
