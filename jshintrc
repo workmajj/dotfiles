@@ -1,60 +1,60 @@
-// http://www.jshint.com/options/
+// http://jshint.com/docs/
 
 {
     // parser config
-    "maxerr": 1000,
+    "maxerr": 1024,
 
     // globals
     "predef": [
-        // lib
-        "ps$",
-        "_bslt",
-        "isset",
-        "is_array",
-        "empty",
-        "is_object",
-        "is_function",
-        "is_deferred",
-        "scopeC",
-
-        // mvc
-        "PS",
-        "psApp"
+        // "O_O",
+        // "empty",
+        // "is_array",
+        // "is_deferred",
+        // "is_function",
+        // "is_object",
+        // "isset",
+        // "ps$",
+        // "psApp",
+        // "scopeC"
     ],
 
-    // enforcing options (true to enforce; false to relax)
+    // enforcing options (true to enforce)
     "bitwise": true,
-    // "curly": true,
+    "camelcase": false,
     "curly": false,
-    "eqeqeq": false,
-    // "forin": false,
+    "eqeqeq": true,
     "forin": true,
-    // "immed": true,
     "immed": false,
-    // "latedef": false,
+    // "indent": 8,
+    "indent": 4,
     "latedef": true,
     "newcap": true,
     "noarg": true,
     "noempty": true,
     "nonew": true,
     "plusplus": false,
+    // "quotmark": true,
+    "quotmark": "single",
     "regexp": false,
     "undef": true,
-    "strict": false,
+    "unused": true,
+    // "strict": false,
+    "strict": true,
     "trailing": true,
+    "maxparams": false,
+    "maxdepth": false,
+    "maxstatements": false,
+    "maxcomplexity": false,
+    "maxlen": 80,
 
-    // relaxing options (true to relax; false to enforce)
+    // relaxing options (true to relax)
     "asi": false,
-    // "boss": true,
     "boss": false,
     "debug": false,
-    "eqnull": true,
-    // "es5": true,
+    "eqnull": false,
     "es5": false,
-    "esnext": true,
-    // "evil": true,
+    "esnext": false,
     "evil": false,
-    // "expr": true,
     "expr": false,
     "funcscope": false,
     "globalstrict": false,
@@ -62,25 +62,21 @@
     "lastsemic": false,
     "laxbreak": false,
     "laxcomma": false,
-    // "loopfunc": true,
     "loopfunc": false,
     "multistr": false,
     "onecase": false,
     "proto": false,
     "regexdash": false,
     "scripturl": false,
-    // "smarttabs": true,
     "smarttabs": false,
-    // "shadow": true,
     "shadow": false,
     "sub": false,
     "supernew": false,
-    "validthis": true,
+    "validthis": false,
 
     // environments
     "browser": true,
     "couch": false,
-    // "devel": false,
     "devel": true,
     "dojo": false,
     "jquery": true,
@@ -89,9 +85,11 @@
     "nonstandard": false,
     "prototypejs": false,
     "rhino": false,
+    "worker": false,
     "wsh": false,
+    "yui": false,
 
-    // legacy options (true to enforce; false to relax)
+    // legacy options (true to enforce)
     "nomen": false,
     "onevar": false,
     "passfail": false,
