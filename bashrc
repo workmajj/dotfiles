@@ -20,6 +20,7 @@ else
 fi
 
 # python
+export PATH=/usr/local/share/python:$PATH
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME="$HOME/.virtualenvs"
     source /usr/local/bin/virtualenvwrapper.sh
