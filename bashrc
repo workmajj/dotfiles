@@ -3,7 +3,7 @@ export PATH=/usr/local/bin:$PATH # homebrew
 export PS1='\[\033[00;33m\][\u@\h][\T]\[\033[00;36m\][\w]$ \[\033[00m\]'
 export LC_CTYPE=en_US.UTF-8
 
-# aliases
+# basic aliases
 alias ..='cd ..'
 alias c='clear'
 alias ll='ls -AFGhl'
@@ -23,7 +23,7 @@ fi
 
 # python
 export PATH=/usr/local/share/python:$PATH # homebrew
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+if [ -f /usr/local/share/python/virtualenvwrapper.sh ]; then
     export WORKON_HOME="$HOME/.virtualenvs"
-    source /usr/local/bin/virtualenvwrapper.sh
+    source /usr/local/share/python/virtualenvwrapper.sh
 fi
