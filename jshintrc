@@ -7,6 +7,8 @@
     // globals
     "predef": [
         // "O_O",
+        // "PS",
+        // "_bslt",
         // "empty",
         // "is_array",
         // "is_deferred",
