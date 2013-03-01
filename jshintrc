@@ -28,7 +28,7 @@
     "forin": true,
     "immed": true,
     // "indent": 8,
-    "indent": 4,
+    // "indent": 4,
     "latedef": true,
     "newcap": true,
     "noarg": true,
