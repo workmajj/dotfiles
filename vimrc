@@ -26,24 +26,12 @@ set clipboard=unnamed
 set ignorecase
 set smartcase
 set nobackup
+set noswapfile
 set nowritebackup
 
-" home tabs
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set ts=4 sts=4 sw=4
 set expandtab
-
-" fake work tabs
-"set tabstop=4
-"set softtabstop=4
-"set shiftwidth=4
-"set noexpandtab
-
-" true work tabs
-" set tabstop=8
-" set softtabstop=8
-" set shiftwidth=8
+" set ts=8 sts=8 sw=8
 " set noexpandtab
 
 set wrap
