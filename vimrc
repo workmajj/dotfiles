@@ -25,6 +25,8 @@ set laststatus=2
 set clipboard=unnamed
 set ignorecase
 set smartcase
+set nobackup
+set nowritebackup
 
 " home tabs
 set tabstop=4
