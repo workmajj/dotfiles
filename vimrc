@@ -2,50 +2,68 @@ set nocompatible
 
 execute pathogen#infect()
 
-syntax on
+" solarized on xterm-256color
+syntax enable
+set background=dark
+let g:solarized_termtrans=1
+let g:solarized_termcolors=256
 colorscheme solarized
+
 filetype plugin indent on
 
-set modelines=0
-set encoding=utf-8
-set scrolloff=3
-set autoindent
-set showmode
-set showcmd
-set hidden
-set wildmenu
-set wildmode=list:longest
-set visualbell
-set cursorline
-set ttyfast
-set title
-set ruler
+" general options
 set backspace=indent,eol,start
-set laststatus=2
 set clipboard=unnamed
+set hidden
+set hlsearch
 set ignorecase
-set smartcase
+set incsearch
+set laststatus=2
 set nobackup
+set noerrorbells
+set nomodeline
 set noswapfile
 set nowritebackup
+set scrolloff=3
+set showcmd
+set showmode
+set smartcase
+set ttyfast
+set visualbell
+set wildmenu
+set wildmode=list:longest
 
 set ts=4 sts=4 sw=4
 set expandtab
 " set ts=8 sts=8 sw=8
 " set noexpandtab
 
-set wrap
-set textwidth=80
+set autoindent
 set colorcolumn=81
+" set cursorcolumn
+set cursorline
+set encoding=utf-8
+set number
+set textwidth=80
+set wrap
 
-" leader and escape
-let mapleader = ","
+" escape and leader
 inoremap jj <ESC>
+let mapleader = ","
 
-" toggle invisible characters
+" invisible characters
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,trail:~
 nmap <leader>l :set list!<CR>
+
+" vertical split
+nnoremap <leader>w <C-w>v<C-w>l
+
+" window navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " move cursor by display lines when wrapping
 nnoremap j gj
@@ -60,7 +78,3 @@ nnoremap k gk
 " inoremap <down> <nop>
 " inoremap <left> <nop>
 " inoremap <right> <nop>
-
-" disable help
-nnoremap <F1> <ESC>
-vnoremap <F1> <ESC>
