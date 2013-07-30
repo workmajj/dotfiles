@@ -6,18 +6,20 @@
 
     // globals
     "predef": [
-        "O_O",
-        "PS",
-        "_bslt",
-        "empty",
-        "is_array",
-        "is_deferred",
-        "is_function",
-        "is_object",
-        "isset",
-        "ps$",
-        "psApp",
-        "scopeC"
+        // "empty",
+        // "isset",
+        // "is_array",
+        // "is_deferred",
+        // "is_function",
+        // "is_object",
+        // "Modernizr",
+        // "O_O",
+        // "PS",
+        // "ps$",
+        // "psApp",
+        // "scopeC",
+        // "Zepto",
+        // "_bslt"
     ],
 
     // enforcing options (true to enforce)
