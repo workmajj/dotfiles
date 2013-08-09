@@ -1,4 +1,4 @@
-// http://jshint.com/docs/
+// http://www.jshint.com/docs/options/
 
 {
     // parser config
@@ -27,10 +27,11 @@
     "camelcase": false,
     "curly": false,
     "eqeqeq": true,
+    "es3": false,
     "forin": true,
     "immed": true,
-    // "indent": 8,
     // "indent": 4,
+    // "indent": 8,
     "latedef": true,
     "newcap": true,
     "noarg": true,
@@ -39,10 +40,8 @@
     "plusplus": false,
     // "quotmark": true,
     "quotmark": "single",
-    "regexp": false,
     "undef": true,
     "unused": true,
-    // "strict": false,
     "strict": true,
     "trailing": true,
     "maxparams": false,
@@ -56,7 +55,6 @@
     "boss": false,
     "debug": false,
     "eqnull": false,
-    "es5": false,
     "esnext": false,
     "evil": false,
     "expr": false,
@@ -67,10 +65,9 @@
     "laxbreak": false,
     "laxcomma": false,
     "loopfunc": false,
+    "moz": false,
     "multistr": false,
-    "onecase": false,
     "proto": false,
-    "regexdash": false,
     "scripturl": false,
     "smarttabs": false,
     "shadow": false,
@@ -87,6 +84,7 @@
     "mootools": false,
     "node": false,
     "nonstandard": false,
+    "phantom": false,
     "prototypejs": false,
     "rhino": false,
     "worker": false,
