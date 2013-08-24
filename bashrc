@@ -22,7 +22,6 @@ else
 fi
 
 # python
-export PATH=/usr/local/share/python:$PATH # homebrew
 if [ -f /usr/local/share/python/virtualenvwrapper.sh ]; then
     export WORKON_HOME="$HOME/.virtualenvs"
     [[ ! -d $WORKON_HOME ]] && mkdir $WORKON_HOME
