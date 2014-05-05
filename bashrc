@@ -6,12 +6,8 @@ export LC_CTYPE=en_US.UTF-8
 # aliases
 alias ..='cd ..'
 alias ll='ls -AFGhl'
-alias gc='git commit'
-alias gd='git diff'
-alias gl='git shortlog'
-alias gs='git status'
 
-# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+# git (https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)
 if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
 fi
