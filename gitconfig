@@ -6,4 +6,4 @@
     # email = foo@bar.baz
     name = John J. Workman
 [push]
-    default = matching
+    default = simple
