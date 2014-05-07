@@ -1,9 +1,10 @@
-[core]
-    excludesfile = ~/.gitignore_global
 [color]
     ui = auto
+[core]
+    excludesfile = ~/.gitignore_global
+    pager = cat
+[push]
+    default = simple
 [user]
     # email = foo@bar.baz
     name = John J. Workman
-[push]
-    default = simple
