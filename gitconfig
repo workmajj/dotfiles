@@ -1,10 +1,15 @@
 [color]
+    interactive = auto
     ui = auto
 [core]
     excludesfile = ~/.gitignore_global
+    legacyheaders = false
     pager = cat
+    quotepath = false
+[credential]
+    helper = osxkeychain
 [push]
     default = simple
 [user]
-    # email = foo@bar.baz
+    # email = FIXME@example.com
     name = John J. Workman
