@@ -47,8 +47,7 @@ set number
 set textwidth=80
 set wrap
 
-" escape and leader
-inoremap jj <ESC>
+" leader
 let mapleader = ","
 
 " invisible characters
