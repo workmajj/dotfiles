@@ -8,6 +8,8 @@
     quotepath = false
 [credential]
     helper = osxkeychain
+[hub]
+    protocol = https
 [push]
     default = simple
 [user]

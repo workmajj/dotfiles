@@ -5,9 +5,10 @@ export LC_CTYPE=en_US.UTF-8
 
 # aliases
 alias ..='cd ..'
+alias git='hub'
 alias ll='ls -AFGhl'
 
-# git (https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash)
+# git tab completion (https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash)
 if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash
 fi
