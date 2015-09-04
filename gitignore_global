@@ -1,4 +1,6 @@
-*.DS_Store
+*.dSYM/
 *.lock
 *.out
 *.swp
+.DS_Store
+.fseventsd
