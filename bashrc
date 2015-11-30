@@ -7,6 +7,7 @@ export PS1='\[\033[02;32m\][\u@\h][\T]\[\033[02;34m\][\w]$ \[\033[00m\]'
 # aliases
 alias ..='cd ..'
 alias git='hub'
+alias grep='grep --color=auto'
 alias ll='ls -AFGhl'
 alias serve='python -m SimpleHTTPServer 8000'
 
