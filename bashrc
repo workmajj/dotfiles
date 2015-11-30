@@ -15,8 +15,8 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 # editor
-if hash mate 2>&-; then
-    export EDITOR=mate
+if hash atom 2>&-; then
+    export EDITOR=atom
 else
     export EDITOR=vim
 fi
