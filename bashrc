@@ -8,6 +8,7 @@ alias gh='cd ~/Documents/code/git/github'
 alias git='hub'
 alias grep='grep --color=auto'
 alias ll='ls -AFGhl'
+alias rc='cd ~/Documents/code/git/rc'
 alias serve='python -m SimpleHTTPServer 8000'
 
 # https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
