@@ -20,6 +20,11 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+  linter:
+    errorPanelHeight: 100
+    showErrorTabFile: false
+    showErrorTabProject: false
+    showProviderName: false
   "linter-rubocop":
     command: "rubocop --config /Users/workmajj/.rubocop.yml"
   "one-dark-ui": {}
