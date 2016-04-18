@@ -19,9 +19,6 @@ Metrics/ModuleLength:
 Metrics/PerceivedComplexity:
   Enabled: false
 
-Style/AccessModifierIndentation:
-  Enabled: false
-
 Style/Documentation:
   Enabled: false
 
