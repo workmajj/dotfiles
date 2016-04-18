@@ -31,12 +31,6 @@ Style/HashSyntax:
 Style/MutableConstant:
   Enabled: false
 
-Style/SpaceInsideHashLiteralBraces:
-  Enabled: false
-
-Style/SpaceInsideBrackets:
-  Enabled: false
-
 Style/StringLiterals:
   Enabled: false
 
