@@ -31,6 +31,9 @@ Style/GuardClause:
 Style/HashSyntax:
   Enabled: false
 
+Style/Lambda:
+  Enabled: false
+
 Style/MutableConstant:
   Enabled: false
 
