@@ -1,13 +1,13 @@
 "*":
-  "autocomplete-plus":
-    enableAutoActivation: false
   core:
     allowPendingPaneItems: false
     audioBeep: false
     disabledPackages: [
+      "autocomplete-plus"
       "metrics"
       "exception-reporting"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "solarized-dark-syntax"
@@ -15,18 +15,9 @@
   editor:
     fontFamily: "Menlo"
     fontSize: 12
-    invisibles: {}
     lineHeight: 1.2
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
-  linter:
-    showErrorTabFile: false
-    showErrorTabProject: false
-    showProviderName: false
-    statusIconScope: "File"
-  "linter-rubocop":
-    command: "rubocop --config /Users/workmajj/.rubocop.yml"
-  "one-dark-ui": {}
   welcome:
     showOnStartup: false
