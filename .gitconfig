@@ -8,10 +8,8 @@
     quotepath = false
 [credential]
     helper = osxkeychain
-[hub]
-    protocol = https
 [push]
     default = simple
 [user]
-    # email = FIXME@example.com
     name = John J. Workman
+    useconfigonly = true # git config --local --add user.email foo@example.com
