@@ -19,5 +19,7 @@
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
+  linter:
+    errorPanelHeight: 24
   welcome:
     showOnStartup: false
