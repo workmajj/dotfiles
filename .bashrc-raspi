@@ -1,7 +1,0 @@
-export EDITOR=vim
-export HISTCONTROL=ignoredups
-
-alias ..='cd ..'
-alias grep='grep --color=auto'
-alias ll='ls -AFGhl'
-alias serve='python -m SimpleHTTPServer 8000'
