@@ -1,6 +1,6 @@
 export HISTCONTROL=ignoredups
 export LC_CTYPE=en_US.UTF-8
-export PS1='\[\033[02;32m\][\u@\h][\T]\[\033[02;34m\][\w]$ \[\033[00m\]'
+export PS1='\[\033[02;33m\][\u@\h]\[\033[02;32m\][\D{%r}]\[\033[02;34m\][\w]$ \[\033[00m\]'
 
 alias ..='cd ..'
 alias grep='grep --color=auto'
