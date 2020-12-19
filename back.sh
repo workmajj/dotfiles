@@ -4,7 +4,7 @@ set -euo pipefail
 
 hash rsync 2>&- || { echo "requires rsync - aborting"; exit 1; }
 
-VERSION=`rsync --version | head -n 1 | perl -ne '$_ =~ m/version ([0-9])\./; print "$1\n";'`
+VERSION=$(rsync --version | head -n 1 | perl -ne '$_ =~ m/version ([0-9])\./; print "$1\n";')
 
 if [ ! "$VERSION" -ge 3 ]; then
   echo "requires rsync version 3 or later - aborting"
@@ -25,8 +25,8 @@ if [ ! -d "$DISK" ]; then
   exit 1
 fi
 
-NAME=`echo "$HOME" | rev | cut -d'/' -f1 | rev` # /foo/bar/baz/name => name
-DATE=`date '+%Y-%m-%d'`
+NAME=$(echo "$HOME" | rev | cut -d'/' -f1 | rev) # /foo/bar/baz/name => name
+DATE=$(date '+%Y-%m-%d')
 DEST="$DISK/$NAME-$DATE/" # .../name-2020-11-20/
 
 if [ -d "$DEST" ]; then
@@ -34,7 +34,7 @@ if [ -d "$DEST" ]; then
   exit 1
 fi
 
-mkdir $DEST
+mkdir "$DEST"
 
 if [ ! -w "$DEST" ]; then
   echo "cannot write to destination $DEST - aborting"
@@ -54,6 +54,6 @@ rsync \
   --exclude "/Applications" \
   --exclude "/Library" \
   --exclude "/Public" \
-  ${SRC} ${DEST}
+  "$SRC" "$DEST"
 
 exit 0
