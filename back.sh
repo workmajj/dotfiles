@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 hash rsync 2>&- || { echo "requires rsync - aborting"; exit 1; }
 
