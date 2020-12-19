@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 hash rsync 2>&- || { echo "requires rsync - aborting"; exit 1; }
 
 VERSION=`rsync --version | head -n 1 | perl -ne '$_ =~ m/version ([0-9])\./; print "$1\n";'`
