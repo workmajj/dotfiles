@@ -1,7 +1,7 @@
 if [ -f ~/.bashrc ]; then
-    source ~/.bashrc
+  source ~/.bashrc
 fi
 
 if [ -f ~/.bashrc-local ]; then
-    source ~/.bashrc-local
+  source ~/.bashrc-local
 fi

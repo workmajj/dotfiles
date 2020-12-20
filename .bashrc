@@ -14,7 +14,7 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 if hash atom 2>&-; then
-    export EDITOR=atom
+  export EDITOR=atom
 else
-    export EDITOR=vim
+  export EDITOR=vim
 fi

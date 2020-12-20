@@ -1,15 +1,15 @@
 [color]
-    interactive = auto
-    ui = auto
+  interactive = auto
+  ui = auto
 [core]
-    excludesfile = ~/.gitignore_global
-    legacyheaders = false
-    pager = cat
-    quotepath = false
+  excludesfile = ~/.gitignore_global
+  legacyheaders = false
+  pager = cat
+  quotepath = false
 [credential]
-    helper = osxkeychain
+  helper = osxkeychain
 [push]
-    default = simple
+  default = simple
 [user]
-    name = John J. Workman
-    useconfigonly = true # git config --local --add user.email foo@example.com
+  name = John J. Workman
+  useconfigonly = true # git config --local --add user.email foo@example.com
