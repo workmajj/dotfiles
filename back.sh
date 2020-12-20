@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -euo pipefail
 
 hash rsync 2>&- || { echo "requires rsync - aborting"; exit 1; }
@@ -11,7 +10,7 @@ if [ ! "$VERSION" -ge 3 ]; then
   exit 1
 fi
 
-SRC="$HOME/" # N.B. trailing slash so rsync doesn't create as subdir
+SRC="$HOME/" # trailing slash so rsync doesn't create as subdir
 
 if [ ! -r "$SRC" ]; then
   echo "cannot read from source $SRC - aborting"
@@ -27,7 +26,7 @@ fi
 
 NAME=$(echo "$HOME" | rev | cut -d'/' -f1 | rev) # /foo/bar/baz/name => name
 DATE=$(date '+%Y-%m-%d')
-DEST="$DISK/$NAME-$DATE/" # .../name-2020-11-20/
+DEST="$DISK/$NAME-$DATE/" # .../name-YYYY-MM-DD/
 
 if [ -d "$DEST" ]; then
   echo "destination $DEST already exists - aborting"
@@ -50,10 +49,9 @@ rsync \
   --progress \
   --exclude ".DS_Store" \
   --exclude ".localized" \
+  --include "/.ssh" \
   --exclude "/.*" \
   --exclude "/Applications" \
   --exclude "/Library" \
   --exclude "/Public" \
   "$SRC" "$DEST"
-
-exit 0
