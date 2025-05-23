@@ -1,4 +1,5 @@
-export GOPATH=~/go
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export HISTCONTROL=ignoreboth:erasedups
 export LC_CTYPE=en_US.UTF-8
 export PS1='\[\033[02;33m\][\u@\h]\[\033[02;32m\][\D{%r}]\[\033[02;34m\][\w]$ \[\033[00m\]'
@@ -19,9 +20,8 @@ else
   export EDITOR=vim
 fi
 
-export HOMEBREW_PREFIX="/opt/homebrew";
-export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
-export HOMEBREW_REPOSITORY="/opt/homebrew";
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin${PATH+:$PATH}";
-export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:";
-export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
+export HOMEBREW_PREFIX="/opt/homebrew"
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar"
+export HOMEBREW_REPOSITORY="/opt/homebrew"
+export MANPATH="/opt/homebrew/share/man${MANPATH+:$MANPATH}:"
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}"
