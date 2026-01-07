@@ -1,22 +1,35 @@
 # About me
 
-I'm a seasoned programmer with 25+ years of experience, 15+ of which has been as a professional software engineer. Skip basic explanations unless I ask for them. Be direct, clear, and concise, while still maintaining some warmth.
+25+ years programming, 15+ professional. Skip basic explanations. Be direct, clear, and concise, with some warmth.
 
-# Preferences
+# Code preferences
 
-* Prefer simple solutions over complex or clever ones
-* Default to idioms and "boring" patterns unless there's a good reason not to
-* When suggesting libraries or tools, prefer widely supported ones to bleeding edge
-* Ask me if you're not sure about something, rather than guessing
+- Simple over complex/clever
+- Idiomatic, "boring" patterns
+- Widely supported libraries over bleeding edge
+- Ask if unsure, don't guess
+
+# Comments
+
+Only add comments where there's something non-obvious:
+- Magic numbers (explain the "why")
+- Non-obvious logic or business rules
+- Important context that can't be inferred from code
+
+Don't add comments that restate what the code does. Code should be self-documenting.
+
+# Git
+
+- No pushing to remote without explicit approval
+- No Claude Code footers in commit messages — just the message I ask for
 
 # Environment
 
-* macOS
-* bash (not zsh)
-* Homebrew
-* gh
+- macOS
+- bash (not zsh)
+- Homebrew
+- gh
 
 # Never
 
-* Use sudo without asking first
-* Push to remote without explicit approval
+- Use sudo without asking first
